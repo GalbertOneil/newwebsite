@@ -1,0 +1,627 @@
+                                    html,
+                                    body {
+                                        width: 100%;
+                                        height: 100%;
+                                        margin: 0 auto;
+                                        scroll-behavior: smooth;
+                                        text-align: center;
+                                        overflow-x: hidden;
+                                    }
+                                    /* -------------------- HEADER ----------------------- */
+                                    
+                                    header {
+                                        position: fixed;
+                                        display: flex;
+                                        justify-content: space-around;
+                                        align-items: baseline;
+                                        background-color: #1c6789;
+                                        width: 100%;
+                                        height: 80px;
+                                        z-index: 10;
+                                    }
+                                    
+                                    label {
+                                        margin: 0 40px 0 0;
+                                        font-size: 26px;
+                                        line-height: 70px;
+                                        display: none;
+                                    }
+                                    
+                                    #toggle {
+                                        display: none;
+                                        line-height: 20px;
+                                    }
+                                    
+                                    .logo {
+                                        font-size: 28px;
+                                        font-family: 'Poppins', sans-serif;
+                                    }
+                                    
+                                    .logoLink {
+                                        color: #ffffff;
+                                        font-size: 400;
+                                    }
+                                    
+                                    a {
+                                        color: #ffffff;
+                                        font-size: 400;
+                                        text-decoration: none;
+                                        margin: 1rem;
+                                    }
+                                    
+                                    #home {
+                                        min-height: 600px;
+                                        height: 100vh;
+                                        width: 100vw;
+                                        background: center / cover no-repeat url('./images/bgimage.png');
+                                        object-fit: contain;
+                                    }
+                                    
+                                    .homeText {
+                                        text-align: left;
+                                    }
+                                    
+                                    .aboutMe {
+                                        text-align: left;
+                                    }
+                                    
+                                    .home,
+                                    .about,
+                                    .works,
+                                    .contact {
+                                        transition: all 300ms;
+                                    }
+                                    
+                                    .home:hover {
+                                        transform: scale(1.5);
+                                    }
+                                    
+                                    .about:hover {
+                                        transform: scale(1.5);
+                                    }
+                                    
+                                    .works:hover {
+                                        transform: scale(1.5);
+                                    }
+                                    
+                                    .contact:hover {
+                                        transform: scale(1.5);
+                                    }
+                                    
+                                    .navLinks {
+                                        font-family: Poppins;
+                                        font-weight: 900;
+                                        font-size: 20px;
+                                    }
+                                    
+                                    .navi {
+                                        list-style: none;
+                                        display: inline-flex;
+                                        flex-direction: row;
+                                    }
+                                    
+                                    .greetings {
+                                        font-family: Poppins;
+                                        padding: 20px 0 30px 0;
+                                        font-size: 104px;
+                                        font-weight: 1000;
+                                        letter-spacing: 14.56px;
+                                        color: #fefcfd;
+                                        margin: 10% 12% 0% 13%;
+                                    }
+                                    
+                                    .rectangle {
+                                        width: 199px;
+                                        height: 15.5px;
+                                        background-color: #ffffff;
+                                    }
+                                    
+                                    .rectangle2 {
+                                        margin: auto;
+                                        width: 90%;
+                                        height: auto;
+                                        min-height: 204px;
+                                        background-color: rgba(40, 28, 103, 0.5);
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                    
+                                    .blurb {
+                                        font-family: Poppins;
+                                        font-size: 38px;
+                                        font-weight: 1000;
+                                        line-height: 1.52;
+                                        letter-spacing: 2.28px;
+                                        color: #fefefe;
+                                        margin: 0 13.5%;
+                                    }
+                                    
+                                    .buttons {
+                                        margin-top: 30px;
+                                    }
+                                    
+                                    .hireMe {
+                                        width: 237.5px;
+                                        height: 65.5px;
+                                        object-fit: contain;
+                                        border-radius: 41.3px;
+                                        background-image: linear-gradient(to bottom, #2996c7, #015375);
+                                        margin: 43px;
+                                        padding: 6px;
+                                    }
+                                    
+                                    .myResume {
+                                        width: 237.5px;
+                                        height: 65.5px;
+                                        object-fit: contain;
+                                        border-radius: 41.3px;
+                                        background-image: linear-gradient(to bottom, #2996c7, #015375);
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .hire {
+                                        width: 178px;
+                                        height: 14px;
+                                        font-family: Poppins;
+                                        font-size: 35px;
+                                        font-weight: 600;
+                                        font-style: normal;
+                                        font-stretch: normal;
+                                        line-height: 1.52;
+                                        letter-spacing: 3.44px;
+                                        text-align: center;
+                                        color: #fefefe;
+                                    }
+                                    
+                                    .resume {
+                                        width: 178px;
+                                        height: 14px;
+                                        font-family: Poppins;
+                                        font-size: 35px;
+                                        font-weight: 600;
+                                        font-style: normal;
+                                        font-stretch: normal;
+                                        line-height: 1.52;
+                                        letter-spacing: 3.44px;
+                                        text-align: center;
+                                        color: #fefefe;
+                                    }
+                                    
+                                    .hire:hover {
+                                        color: #015375;
+                                    }
+                                    
+                                    .resume:hover {
+                                        color: #015375;
+                                    }
+                                    
+                                    .myResume:hover {
+                                        background: #F4FD15;
+                                    }
+                                    
+                                    .hireMe:hover {
+                                        background: #F4FD15;
+                                    }
+                                    /* ----------------------- ABOUT ---------------------- */
+                                    
+                                    #aboutMe {
+                                        height: 91vh;
+                                        width: 100%;
+                                        display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                    }
+                                    
+                                    .about-title {
+                                        font-family: Poppins;
+                                        font-size: 34px;
+                                        margin-top: 10%;
+                                        padding: 0 3%;
+                                    }
+                                    
+                                    .headshot {
+                                        margin-top: 5%;
+                                        height: 200px;
+                                        width: 200px;
+                                        object-fit: cover;
+                                        border: 2px solid #015373;
+                                        border-radius: 100%;
+                                    }
+                                    
+                                    .shpeel {
+                                        font-family: Poppins;
+                                        font-size: 20px;
+                                        font-weight: 100;
+                                        margin-top: 5%;
+                                        max-width: 700px;
+                                        text-align: left;
+                                        line-height: 1.8;
+                                    }
+                                    /* ----------------------- SKILLS --------------------- */
+                                    
+                                    .skills {
+                                        font-family: Poppins;
+                                        font-size: 34px;
+                                        margin-top: 69px;
+                                        margin-bottom: 100px;
+                                        padding: 0% 2.2rem;
+                                    }
+                                    
+                                    .skillsLogos {
+                                        display: flex;
+                                        flex-flow: row;
+                                        align-items: baseline;
+                                        justify-content: space-evenly;
+                                        height: 30vh;
+                                    }
+                                    
+                                    .css,
+                                    .html,
+                                    .js,
+                                    .react,
+                                    .rails,
+                                    .github {
+                                        transition: transform .5s;
+                                    }
+                                    
+                                    .css:hover {
+                                        transform: scale(1.4);
+                                    }
+                                    
+                                    .html:hover {
+                                        transform: scale(1.4);
+                                    }
+                                    
+                                    .js:hover {
+                                        transform: scale(1.4);
+                                    }
+                                    
+                                    .react:hover {
+                                        transform: scale(1.4);
+                                    }
+                                    
+                                    .rails:hover {
+                                        transform: scale(1.4);
+                                    }
+                                    
+                                    .github:hover {
+                                        transform: scale(1.4);
+                                    }
+                                    /* --------------------- PROJECTS ---------------------- */
+                                    
+                                    .projects {
+                                        font-family: Poppins;
+                                        font-size: 34px;
+                                        padding: 0% 1.1rem;
+                                    }
+                                    
+                                    .projectApp {
+                                        display: grid;
+                                        grid-template-columns: 1fr 1fr;
+                                        align-content: center;
+                                        justify-items: center;
+                                    }
+                                    
+                                    .outer-app {
+                                        width: 100%;
+                                        height: 100%;
+                                        margin: auto;
+                                    }
+                                    
+                                    .app {
+                                        margin: 0 auto;
+                                    }
+                                    
+                                    .app1 {
+                                        position: relative;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                    
+                                    .overlay-app {
+                                        cursor: pointer;
+                                        position: absolute;
+                                        top: 40px;
+                                        bottom: 13%;
+                                        left: 11%;
+                                        width: 75%;
+                                        opacity: 0;
+                                        transition: .5s ease;
+                                        background-color: rgba(0, 0, 0, 0.7)
+                                    }
+                                    
+                                    .overlay-app3 {}
+                                    
+                                    .app1:hover .overlay-app {
+                                        opacity: 1;
+                                    }
+                                    
+                                    .text-app1 {
+                                        margin: 0 auto;
+                                        font-family: Poppins;
+                                        color: white;
+                                        font-size: 20px;
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        width: 100%;
+                                        transform: translate(-50%, -50%);
+                                        -ms-transform: translate(-50%, -50%);
+                                    }
+                                    
+                                    .app2 {
+                                        position: relative;
+                                    }
+                                    
+                                    .app2:hover .overlay-app {
+                                        opacity: 1;
+                                    }
+                                    
+                                    .text-app2 {
+                                        margin: 0 auto;
+                                        font-family: Poppins;
+                                        color: white;
+                                        font-size: 20px;
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        -ms-transform: translate(-50%, -50%);
+                                    }
+                                    
+                                    .app3 {
+                                        grid-column-start: 1;
+                                        grid-column-end: 3;
+                                        position: relative;
+                                    }
+                                    
+                                    .app3:hover .overlay-app {
+                                        opacity: 1;
+                                    }
+                                    
+                                    .text-app3 {
+                                        margin: 0 auto;
+                                        font-family: Poppins;
+                                        color: white;
+                                        font-size: 20px;
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        -ms-transform: translate(-50%, -50%);
+                                    }
+                                    
+                                    .recordbag {
+                                        object-fit: cover;
+                                        width: 500px;
+                                        height: 400px;
+                                        margin: auto;
+                                    }
+                                    
+                                    .marivanna {
+                                        object-fit: cover;
+                                        width: 500px;
+                                        height: 400px;
+                                        margin: auto;
+                                    }
+                                    
+                                    .beatsource {
+                                        object-fit: cover;
+                                        width: 500px;
+                                        height: 400px;
+                                    }
+                                    /* --------------------- CONTACTS ----------------------- */
+                                    
+                                    .contact-area {
+                                        margin-top: 7rem;
+                                    }
+                                    
+                                    .contactText {
+                                        font-family: Poppins;
+                                        font-size: 34px;
+                                        margin-bottom: 65px;
+                                        margin-top: 7rem;
+                                        padding: 0% 1.1rem;
+                                    }
+                                    
+                                    .contactForm {
+                                        padding: 10px 10px 90px 10px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        width: 96%;
+                                        max-width: 597px;
+                                        margin: 63px auto;
+                                    }
+                                    
+                                    .name {
+                                        border-radius: 3px;
+                                        margin-bottom: 2rem;
+                                        padding: .5rem;
+                                        font-size: 1.1rem;
+                                        border: 1px solid rgba(0, 0, 0, .1);
+                                        box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .email {
+                                        border-radius: 3px;
+                                        margin-bottom: 2rem;
+                                        padding: .5rem;
+                                        font-size: 1.1rem;
+                                        border: 1px solid rgba(0, 0, 0, .1);
+                                        box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .message {
+                                        border-radius: 3px;
+                                        margin-bottom: 2rem;
+                                        padding: 3rem;
+                                        font-size: 1.1rem;
+                                        border: 1px solid rgba(0, 0, 0, .1);
+                                        box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.2);
+                                    }
+                                    
+                                    .submit {
+                                        border-radius: 17px;
+                                        margin: auto;
+                                        margin-bottom: -4rem;
+                                        padding: 0.7rem;
+                                        width: 200px;
+                                        color: white;
+                                        font-size: 17px;
+                                        background-image: linear-gradient(to bottom, #2996c7, #015375);
+                                        box-shadow: 4px 4px 3px 0px rgba(0, 0, 0, 0.2);
+                                    }
+                                    /* --------------------- FOOTER ------------------------ */
+                                    
+                                    footer {
+                                        display: flex;
+                                        justify-content: space-around;
+                                        align-items: baseline;
+                                        background-color: #1c6789;
+                                    }
+                                    
+                                    .logo-linkedin-footer {
+                                        width: 30px;
+                                        height: 30px;
+                                    }
+                                    
+                                    .logo-github-footer {
+                                        width: 30px;
+                                        height: 30px;
+                                    }
+                                    
+                                    .footerParag {
+                                        font-family: Poppins;
+                                        font-size: 21px;
+                                        color: white;
+                                        /* margin-right: 825px; */
+                                    }
+                                    /* ----------------------------- MEDIA QUERIES ----------------------------- */
+                                    
+                                    @media only screen and (max-width: 1200px) {
+                                        .greetings {
+                                            font-size: 70px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 950px) {
+                                        .projectApp {
+                                            grid-template-columns: 1fr;
+                                            grid-template-rows: 1fr 1fr 1fr;
+                                        }
+                                        .app {
+                                            width: 100%;
+                                            height: auto;
+                                        }
+                                        /* .overlay-app {
+                                            display: none;
+                                        } */
+                                        img.text-app1 .text-app2 .text-app3:hover {
+                                            cursor: pointer;
+                                        }
+                                        .app1 {
+                                            grid-row-start: 1;
+                                        }
+                                        .app2 {
+                                            grid-row-start: 2;
+                                        }
+                                        .app3 {
+                                            grid-row-start: 3;
+                                        }
+                                        .app4 {
+                                            grid-row-start: 4;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 800px) {
+                                        .logo {
+                                            display: none;
+                                        }
+                                        .navi {
+                                            display: none;
+                                        }
+                                        label {
+                                            display: block;
+                                            margin-left: 298px;
+                                            cursor: pointer;
+                                            color: #fefcfd;
+                                        }
+                                        #toggle {
+                                            display: none;
+                                        }
+                                        #toggle:checked+.navi {
+                                            display: inline;
+                                        }
+                                        .navLinks {
+                                            background-color: #1c6789;
+                                            width: 100%;
+                                        }
+                                        .home {
+                                            margin-top: -79px;
+                                        }
+                                        .contact {
+                                            margin-bottom: 10px;
+                                        }
+                                        .greetings {
+                                            font-size: 70px;
+                                            padding: 0 0;
+                                        }
+                                        .shpeel {
+                                            margin: 5% 15px 0 15px;
+                                        }
+                                        .skillsLogos {
+                                            width: 95%;
+                                            display: grid;
+                                            height: auto;
+                                            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+                                            margin: 0 auto;
+                                            align-content: center;
+                                            justify-items: center;
+                                        }
+                                        .icon {
+                                            margin: 20px;
+                                        }
+                                        .footerParag {
+                                            font-size: 19px;
+                                            margin-left: 85px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 600px) {
+                                        .blurb {
+                                            font-size: 20px;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 550px) {
+                                        .buttons {
+                                            margin-top: 10%;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
+                                        }
+                                        .button {
+                                            margin: 5px auto;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 500px) {
+                                        .greetings {
+                                            font-size: 45px;
+                                            padding-top: 10%;
+                                        }
+                                        .rectangle2 {
+                                            margin: 0 auto;
+                                        }
+                                    }
+                                    
+                                    @media only screen and (max-width: 400px) {
+                                        .greetings {
+                                            font-size: 35px;
+                                            padding-top: 10%;
+                                        }
+                                        .rectangle2 {
+                                            margin: 0 auto;
+                                        }
+                                    }

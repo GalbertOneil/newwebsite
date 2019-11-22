@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Galbert O'Neil</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="mainLogo">
+            <h1 class="logo"><a class='logoLink' href='#home'>Galbert O'Neil</a></h1>
+        </div>
+        <div class="navLinks">
+            <label for="toggle">&#9776;</label>
+            <input type='checkbox' id='toggle' />
+            <ul class="navi">
+                <li class="home"><a href='#home'>HOME</a></li>
+                <li class="about"><a href='#aboutMe'>ABOUT</a></li>
+                <li class="works"><a href='#projects'>PROJECTS</a></li>
+                <li class="contact"><a href='#contact-area'>CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div id='home'>
+        <div class="homeText">
+            <div class="rectangle"></div>
+            <p class="greetings">HI, I'M GALBERT!</p>
+            <div class="rectangle2">
+                <p class="blurb">I'M A WEB DEVELOPER BASED IN NEW YORK CITY WITH A PASSION FOR CREATIVE PROBLEM SOLVING.</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button hireMe"><a class="hire" href='#contact-area'>HIRE ME</a></button>
+            <button class="button myResume"><a class="resume" href='./resume/resume.pdf' target="_blank" download>RESUME</a></button>
+        </div>
+    </div>
+
+
+    <div id='aboutMe'>
+        <h2 class='about-title'>ABOUT</h2>
+        <img class='headshot' src='./images/headshot.jpg'>
+        <p class='shpeel'>Originally from Dominican Republic, I lived in New York City for the last 12 years. When I'm not learning new things about coding you can find me digging through records and playing music around the city.</p>
+    </div>
+
+    <h2 class="skills">SKILLS</h2>
+
+    <div class="skillsLogos">
+        <img class="icon css" src='./images/css.png'>
+        <img class="icon html" src='./images/html.png'>
+        <img class="icon js" src='./images/js.png'>
+        <img class="icon react" src='./images/react.png'>
+        <img class="icon rails" src='./images/rails.png'>
+        <img class="icon github" src='./images/github.png'>
+    </div>
+
+
+    <div id='projects'>
+        <h2 class="projects">PROJECTS</h2>
+        <div class="projectApp">
+
+            <div class='outer-app app1'>
+                <img class='app recordbag' src='./images/recordbag.png' alt='app'>
+                <div class="overlay-app">
+                    <a href='https://recordbag-app.herokuapp.com/Main' target="_blank">
+                        <p class='text-app1'>Recorbag: An app build on React, where the user can search for their favourite artists and find their discography</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="outer-app app2">
+                <img class='app beatsource' src='./images/Beatsource.png' alt='app'>
+                <div class="overlay-app">
+                    <a href='http://beatsource.surge.sh/' target="_blank">
+                        <p class='text-app2'>Beatsource: An application build in React for the front-end and Ruby on Rails for the back-end. It is a Mp3 store </p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="outer-app app3">
+                <img class='app marivanna' src='./images/marivanna.png' alt='app'>
+                <div class="overlay-app overlay-app3">
+                    <a href='https://mari-vanna.surge.sh/' target="_blank">
+                        <p class=text-app1>A collaboration app with a UX designers build on react</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id='contact-area'>
+        <h2 class="contactText">CONTACT</h2>
+
+        <form action="https://formspree.io/goneilp@gmail.com" method="POST" class='contactForm'>
+            <input class='name' type="text" name="name" placeholder='Name'>
+            <input class='email' type="email" name="_replyto" placeholder='Email'>
+            <input class='message' type='msg' name='msg'>
+            <input class='submit' type="submit" value="Send">
+        </form>
+    </div>
+
+
+
+    <footer>
+        <p class='footerParag'>Created & design by Galbert O'Neil</p>
+        <div className='logoMedia'>
+            <a class='linkedin' href='https://www.linkedin.com/in/galbertoneil/' target='_blank'><img class='logo-linkedin-footer' src='./images/linkedinlogo.png' alt='linkedin'></a>
+            <a class='github' href='https://github.com/' target='_blank'><img class='logo-github-footer' src='./images/githublogo.png' alt='github'></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
